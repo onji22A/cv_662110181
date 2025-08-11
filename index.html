@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body class="bg-image">
+
+<div class="container py-5">
+
+    <div class="card profile-card p-3 mb-5">
+        
+        <div class="row g-0 align-items-center">
+
+            <div class="col-md-4 text-center">
+                <img src="img\2.png" alt="Profile Photo" class="profile-img squear"><!--ตรงclassตอนแรกเป็นวงกลมแล้วรูปมาไม่หมด-->
+            </div>
+
+            <div class="col-md-8">
+                <div class="card-body text-center">
+                    <h2 class="fw-bold">Onjira Thiraphot</h2>
+                    <h5 class="fw-bold">Chiang Mai University</h5>
+                    <p>Digital game</p>
+                    <hr>
+                    <h5 class="fw-bold">3D Modeller</h5>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Skills & Tools -->
+     
+    <div class="card skill-card p-4">
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <h5 class="fw-bold text-center">Skills</h5>
+                <div class="skills-box p-3 ">
+                    <span class="badge skill-badge m-1">Modelling</span>
+                    <span class="badge skill-badge m-1">Texture</span>
+                    <span class="badge skill-badge m-1">Concept Art</span>
+                    <span class="badge skill-badge m-1">Sculpting</span>
+                    
+                </div>
+            </div>
+        
+            <div class="col-md-6 text-center">
+                <h5 class="fw-bold">Tools</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <img src="img\Blender.png" class="tool-icon"   alt="Blender">
+                    <img src="img\Pt.png"      class="tool-icon"   alt="Substance Painter">
+                    <img src="img\nomad.png"   class="tool-icon"   alt="Nomad Sculpt">
+                    <img src="img\Krita.png"   class="tool-icon"   alt="Krita">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button -->
+    <div class="text-center mt-4">
+        <button class="button fw-bold" onclick="viewContact()">View Contact</button>
+        <!--<button class="btn btn-info px-4 py-2 rounded-pill fw-bold" onclick="viewContact()">viewContact</button>-->
+        <a href="https://www.canva.com/design/DAFQuImbXm4/x5Ywqs8Km8kEIAsjs2Hwww/edit?utm_content=DAFQuImbXm4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-info fw-bold">Portfolio</a>
+        <a href="https://www.canva.com/design/DAGvqrDwARI/J5b4tEprx7VMJRvhwh1yHg/edit?utm_content=DAGvqrDwARI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-cv fw-bold">CV</a>
+
+    </div>
+</div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

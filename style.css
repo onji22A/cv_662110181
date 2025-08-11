@@ -1,0 +1,128 @@
+body {
+    background-image: url('img/cover.png'); 
+    background-size: cover;                  /* ให้ภาพเต็มจอ */
+    background-position: center;            
+    background-attachment: fixed;            /* เลื่อนจอแล้วพื้นหลังอยู่กับที่ */
+    background-repeat: no-repeat;            /* ไม่ให้ภาพซ้ำ */
+}
+.profile-card {
+    max-width: 100;
+    max-height: 550px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.skill-card {
+    max-width: 100;
+    max-height: 550px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    opacity: 0.9;
+    
+}
+
+.profile-img {
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+.skill-badge {
+    background-color: #516a80; 
+    font-size: 1rem;           
+    padding: 8px 12px;         /* ระยะห่างใน badge */
+    border-radius: 12px;       
+}
+.skill-badge:hover {
+    background-color: #5a6268; 
+    cursor: pointer;
+}
+
+
+.skills-box {
+    background-color: #b3c7c1;
+    border-radius: 35px; 
+}
+
+.tool-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 2px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #bc93e9;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 5px #7f7782;
+}
+
+.button:hover {background-color: #a149b0}
+
+.button:active {
+  background-color: #a849b0;
+  box-shadow: 0 5px #421952;
+  transform: translateY(4px);
+}
+
+/*ของport*/
+.btn-info {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 2px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #93b0e9;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 5px #7f7782;
+}
+
+.btn-info:hover {background-color: #205589}
+
+.btn-info:active {
+  background-color: #247de9;
+  box-shadow: 0 5px #6b6c84;
+  transform: translateY(4px);
+}
+
+/*ของcv*/
+.btn-cv {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 2px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #c1e993;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 5px #7f7782;
+}
+
+.btn-cv:hover {background-color: #bca11c}
+
+.btn-cv:active {
+  background-color: #e9d924;
+  box-shadow: 0 5px #6b6c84;
+  transform: translateY(4px);
+}
